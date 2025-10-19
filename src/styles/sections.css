@@ -111,7 +111,7 @@
 
 .hero {
   text-align: center;
-  padding-top: calc(var(--space-xl) * 2);
+  padding-top: calc(var(--space-xl) * 3);
   padding-bottom: calc(var(--space-xl) * 2);
   position: relative;
 }
@@ -145,6 +145,7 @@
   justify-content: center;
   gap: var(--space-sm);
   margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .countdown {
@@ -158,7 +159,7 @@
 
 .countdown__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--space-md);
   margin-top: var(--space-lg);
 }
@@ -494,8 +495,6 @@
 @media (max-width: 768px) {
   .nav {
     flex-wrap: wrap;
-    align-items: flex-start;
-    gap: var(--space-sm);
   }
 
   .nav__toggle {
@@ -507,73 +506,20 @@
     width: 100%;
     flex-direction: column;
     align-items: stretch;
-    gap: var(--space-sm);
-    padding: 0;
+    gap: var(--space-md);
   }
 
   .nav__menu--open {
     display: flex;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: var(--radius-md);
-    padding: var(--space-sm) var(--space-md);
-    box-shadow: var(--shadow-soft);
   }
 
   .nav__list {
     flex-direction: column;
-    gap: var(--space-xs);
-    width: 100%;
-  }
-
-  .nav__link {
-    display: block;
-    padding: 0.5rem 0;
-  }
-
-  .language-switcher {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .language-switcher__btn {
-    flex: 1;
+    gap: var(--space-sm);
   }
 
   .hero__cta {
     flex-direction: column;
-  }
-
-  .hero__cta .btn {
-    width: 100%;
-  }
-
-  .wave {
-    height: 40px;
-  }
-}
-
-@media (max-width: 600px) {
-  .hero {
-    padding-top: calc(var(--space-xl) * 1.25);
-    padding-bottom: calc(var(--space-xl) * 1.25);
-  }
-
-  .hero__lead {
-    margin: var(--space-sm) auto var(--space-md);
-  }
-
-  .story__timeline {
-    gap: var(--space-md);
-  }
-
-  .story__milestone {
-    padding-left: 1.75rem;
-  }
-
-  .story__milestone::before {
-    width: 1rem;
-    height: 1rem;
-    top: 0.3rem;
   }
 
   .countdown__grid {
@@ -584,11 +530,30 @@
     padding: var(--space-sm);
   }
 
-  .schedule__grid,
-  .travel__grid,
-  .gallery__grid,
-  .contact__list {
-    gap: var(--space-md);
+  .countdown__value {
+    font-size: 1.5rem;
+  }
+
+  .countdown__label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown__grid {
+    gap: 0.5rem;
+  }
+
+  .countdown__item {
+    padding: 0.5rem;
+  }
+
+  .countdown__value {
+    font-size: 1.25rem;
+  }
+
+  .countdown__label {
+    font-size: 0.7rem;
   }
 }
 

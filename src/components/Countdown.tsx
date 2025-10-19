@@ -51,10 +51,10 @@ export function Countdown({ countdown }: CountdownProps) {
           <div className="countdown__grid">
             {(
               [
-                { label: 'Days', value: timeLeft.days },
-                { label: 'Hours', value: timeLeft.hours },
-                { label: 'Minutes', value: timeLeft.minutes },
-                { label: 'Seconds', value: timeLeft.seconds }
+                { label: countdown.labels.days, value: timeLeft.days },
+                { label: countdown.labels.hours, value: timeLeft.hours },
+                { label: countdown.labels.minutes, value: timeLeft.minutes },
+                { label: countdown.labels.seconds, value: timeLeft.seconds }
               ] as const
             ).map((item) => (
               <div key={item.label} className="countdown__item">

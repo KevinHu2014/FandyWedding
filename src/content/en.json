@@ -6,7 +6,19 @@
   "hero": {
     "overline": "Somerset Coast • Brent House Restaurant",
     "description": "Join us for a sun-drenched summer afternoon with coastal breezes, hearty Somerset flavours, and the people we love most.",
-    "ctaSecondary": { "label": "Download calendar invite", "action": "ics" }
+    "ctaSecondary": {
+      "label": "Download calendar invite",
+      "action": "ics"
+    }
+  },
+  "countdown": {
+    "title": "Countdown to the Reception",
+    "labels": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    }
   },
   "ourStory": {
     "intro": "From Brighton beach dates to Somerset escapes, our story has always been tied to the sea. We’re so excited to celebrate that with you.",

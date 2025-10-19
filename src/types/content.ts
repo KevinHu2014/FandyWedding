@@ -72,6 +72,12 @@ export interface WeddingContent {
     title: string;
     eventDate: string;
     timezone: string;
+    labels: {
+      days: string;
+      hours: string;
+      minutes: string;
+      seconds: string;
+    };
   };
   ourStory: {
     title: string;
