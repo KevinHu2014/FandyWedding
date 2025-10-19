@@ -22,8 +22,8 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm install
-      - name: Extract PDF content
-        run: npm run extract
+      # - name: Extract PDF content
+      #   run: npm run extract
       - name: Build site
         run: npm run build
       - name: Configure Pages
