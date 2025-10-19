@@ -58,3 +58,5 @@ src/
 - `src/utils/analytics.ts` is a stub; wire in a privacy-friendly provider as needed.
 
 Enjoy the celebration! 🌊
+
+<!-- Trigger deployment -->
