@@ -151,19 +151,19 @@
     "intro": "以海邊色調、粉彩彩旗與貝殼粉為靈感的小小情境。",
     "images": [
       {
-        "src": "/images/brent.jpg",
+        "src": "./images/brent.jpg",
         "alt": "Sunlit dunes leading down to a calm sea",
         "width": 1200,
         "height": 800
       },
       {
-        "src": "/images/cheddar.jpg",
+        "src": "./images/cheddar.jpg",
         "alt": "Pastel bunting fluttering along a seaside promenade",
         "width": 1200,
         "height": 800
       },
       {
-        "src": "/images/grandPier.jpg",
+        "src": "./images/grandPier.jpg",
         "alt": "Soft blue and shell-pink bridal bouquet",
         "width": 1200,
         "height": 800
