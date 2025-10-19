@@ -5,6 +5,14 @@
   },
   "hero": {
     "overline": "英國薩默塞特郡 · Brent House 餐廳",
+    "images": [
+      {
+        "src": "/images/brent.jpg",
+        "alt": "Fandy and Rob",
+        "width": 1200,
+        "height": 800
+      }
+    ],
     "date": "2026 年 6 月 12 日（週五）· 14:00 – 22:30",
     "description": "邀請你和我們一起在夏日海風中舉杯，共享 Brent House 的美味與歡笑。",
     "ctaPrimary": {
@@ -140,7 +148,27 @@
   },
   "gallery": {
     "title": "靈感花絮",
-    "intro": "以海邊色調、粉彩彩旗與貝殼粉為靈感的小小情境。"
+    "intro": "以海邊色調、粉彩彩旗與貝殼粉為靈感的小小情境。",
+    "images": [
+      {
+        "src": "/images/brent.jpg",
+        "alt": "Sunlit dunes leading down to a calm sea",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/cheddar.jpg",
+        "alt": "Pastel bunting fluttering along a seaside promenade",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/grandPier.jpg",
+        "alt": "Soft blue and shell-pink bridal bouquet",
+        "width": 1200,
+        "height": 800
+      }
+    ]
   },
   "contact": {
     "title": "聯絡窗口",

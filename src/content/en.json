@@ -119,19 +119,19 @@
     "intro": "A little inspiration for the pastel bunting, sea-sparkle palette, and coastal flowers we’re planning.",
     "images": [
       {
-        "src": "/images/gallery-dune.svg",
+        "src": "/images/brent.jpg",
         "alt": "Sunlit dunes leading down to a calm sea",
         "width": 1200,
         "height": 800
       },
       {
-        "src": "/images/gallery-pier.svg",
+        "src": "/images/cheddar.jpg",
         "alt": "Pastel bunting fluttering along a seaside promenade",
         "width": 1200,
         "height": 800
       },
       {
-        "src": "/images/gallery-bouquet.svg",
+        "src": "/images/grandPier.jpg",
         "alt": "Soft blue and shell-pink bridal bouquet",
         "width": 1200,
         "height": 800
