@@ -1,0 +1,141 @@
+{
+  "site": {
+    "title": "Fandy 與 Rob 的海邊婚禮",
+    "description": "婚禮當天流程、交通住宿建議、以及薩默塞特沿海小旅行資訊一次掌握。"
+  },
+  "hero": {
+    "overline": "英國薩默塞特郡 · Brent House 餐廳",
+    "date": "2026 年 6 月 12 日（週五）· 14:00 – 22:30",
+    "description": "邀請你和我們一起在夏日海風中舉杯，共享 Brent House 的美味與歡笑。",
+    "ctaPrimary": { "label": "回覆出席" },
+    "ctaSecondary": { "label": "加入行事曆", "action": "ics" }
+  },
+  "countdown": {
+    "title": "距離婚禮倒數"
+  },
+  "ourStory": {
+    "title": "我們的故事",
+    "intro": "從布萊頓海邊散步，到薩默塞特沙灣的求婚，海邊見證了我們的重要時刻。"
+  },
+  "schedule": {
+    "title": "婚禮行程",
+    "subtitle": "依照 PDF 提供的時間表整理，可視情況微調。",
+    "items": [
+      {
+        "time": "14:00",
+        "title": "賓客入場與迎賓酒",
+        "description": "抵達後可先到花園拍照、享用迎賓飲品。"
+      },
+      {
+        "time": "15:30",
+        "title": "祝酒與分享",
+        "description": "家人與好友分享故事後，一同入席。"
+      },
+      {
+        "time": "17:30",
+        "title": "自助餐與甜點",
+        "description": "Brent House 招牌烤肉、素食料理與海洋風味甜點。"
+      },
+      {
+        "time": "20:00",
+        "title": "音樂與舞池",
+        "description": "DJ 帶來輕快歌曲，若天氣良好也會安排夕陽合照。"
+      },
+      {
+        "time": "22:30",
+        "title": "煙火棒送客",
+        "description": "在星光與煙火棒中道晚安。"
+      }
+    ],
+    "note": "若從 Weston 搭計程車，建議預留時間並提前預約 Apple Taxis。"
+  },
+  "venue": {
+    "title": "婚禮地點",
+    "description": "Brent House 是當地備受喜愛的烤肉餐廳，擁有白色屋舍、海洋元素裝飾與迷人庭園。",
+    "addressLines": [
+      "Brent House Restaurant",
+      "Bristol Road",
+      "East Brent, Highbridge TA9 4HL"
+    ],
+    "travelTips": [
+      {
+        "mode": "開車",
+        "detail": "從 M5 高速 22 號出口轉入 A38，場地提供免費停車位。"
+      },
+      {
+        "mode": "火車",
+        "detail": "最近的大站為 Weston-super-Mare，下車後約 13 分鐘車程可抵達。"
+      },
+      {
+        "mode": "計程車",
+        "detail": "Weston 的 Apple Taxis 熟悉此路線，建議先預約往返。"
+      }
+    ],
+    "map": {
+      "iframeTitle": "Brent House 位置地圖"
+    }
+  },
+  "travelStay": {
+    "title": "交通與住宿",
+    "intro": "多數賓客選擇入住海邊小鎮 Weston-super-Mare，方便享受沙灘、碼頭與豐富餐廳。",
+    "travel": [
+      {
+        "mode": "停車",
+        "detail": "Brent House 附設免費停車場，導航輸入 TA9 4HL 即可。"
+      },
+      {
+        "mode": "計程車",
+        "detail": "Apple Taxis Weston · +44 1934 666666",
+        "link": "tel:+441934666666"
+      }
+    ],
+    "stay": [
+      {
+        "name": "Travelodge Weston-super-Mare",
+        "detail": "實惠選擇，鄰近海濱。"
+      },
+      {
+        "name": "Premier Inn Weston-super-Mare (Seafront)",
+        "detail": "面海飯店，隔天可散步看日出。"
+      },
+      {
+        "name": "The Grange Inn, Brent Knoll",
+        "detail": "距離會場最近的旅店，步行約 15 分鐘，建議視情況安排接駁。"
+      }
+    ]
+  },
+  "registry": {
+    "title": "禮物",
+    "intro": "最珍貴的禮物就是你的到來。若想表達心意，我們會準備紅包袋或卡片盒。"
+  },
+  "faq": {
+    "title": "常見問題",
+    "items": [
+      {
+        "question": "建議的穿著？",
+        "answer": "海邊夏季婚禮的輕正裝，建議帶上披肩或外套以備夜晚微涼。"
+      },
+      {
+        "question": "可以攜帶小孩嗎？",
+        "answer": "非常歡迎！回覆 RSVP 時請告知人數與需求。"
+      }
+    ]
+  },
+  "rsvp": {
+    "title": "回覆出席",
+    "intro": "若需要中文協助，歡迎直接聯絡 Fandy。",
+    "buttonLabel": "填寫表單",
+    "deadline": "請於 2026 年 4 月 1 日前回覆"
+  },
+  "gallery": {
+    "title": "靈感花絮",
+    "intro": "以海邊色調、粉彩彩旗與貝殼粉為靈感的小小情境。"
+  },
+  "contact": {
+    "title": "聯絡窗口",
+    "note": "旅遊安排找 Rob，語言與住宿協助找 Fandy。"
+  },
+  "footer": {
+    "tagline": "來自海岸的祝福"
+  }
+}

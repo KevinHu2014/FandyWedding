@@ -1,0 +1,197 @@
+{
+  "site": {
+    "title": "Fandy & Rob — Wedding Weekend",
+    "description": "Helpful information for Fandy and Rob’s seaside-inspired celebration in Somerset, including schedule, travel tips, and places to stay.",
+    "meta": {
+      "eventDate": "Friday, 12 June 2026",
+      "timezone": "Europe/London",
+      "location": "Brent House Restaurant, East Brent, Somerset",
+      "ogImage": "/social-card.jpg"
+    }
+  },
+  "hero": {
+    "overline": "East Brent, Somerset • United Kingdom",
+    "names": "Fandy & Rob",
+    "date": "Friday, 12 June 2026 · 2:00 – 10:30 PM",
+    "description": "The reception will be held at Brent House Restaurant. We’ll raise a glass, share a meal, and celebrate together by the sea.",
+    "ctaPrimary": { "label": "RSVP", "href": "#rsvp" },
+    "ctaSecondary": { "label": "Add to Calendar", "action": "ics" }
+  },
+  "countdown": {
+    "title": "Countdown to the Reception",
+    "eventDate": "2026-06-12T14:00:00+01:00",
+    "timezone": "Europe/London"
+  },
+  "ourStory": {
+    "title": "Our Story",
+    "intro": "We can’t wait to gather friends and family for a relaxed seaside celebration in Somerset.",
+    "timeline": []
+  },
+  "schedule": {
+    "title": "Wedding Day Schedule",
+    "subtitle": "Timings from the PDF agenda",
+    "items": [
+      {
+        "time": "14:00",
+        "title": "Reception begins",
+        "description": "Arrive at Brent House Restaurant for drinks and welcome hugs."
+      },
+      {
+        "time": "22:30",
+        "title": "Evening wind-down",
+        "description": "Last orders and goodbyes as the reception wraps up."
+      }
+    ],
+    "note": "We’ll update these timings closer to the date if anything shifts."
+  },
+  "venue": {
+    "title": "Venue",
+    "name": "Brent House Restaurant",
+    "description": "Nestled just off the A38 in the Somerset countryside, Brent House Restaurant is an easy hop from Weston-super-Mare with plenty of parking on site.",
+    "addressLines": [
+      "Brent House Restaurant",
+      "Bristol Road",
+      "East Brent, Highbridge TA9 4HL"
+    ],
+    "travelTips": [
+      {
+        "mode": "By car",
+        "detail": "Take junction 22 of the M5, then follow the A38 towards East Brent. Parking is available for all guests."
+      },
+      {
+        "mode": "By train",
+        "detail": "The nearest major station is Weston-super-Mare; from there it’s about a 13-minute taxi ride."
+      },
+      {
+        "mode": "Taxi",
+        "detail": "Apple Taxis in Weston-super-Mare offer local pickups and pre-booked returns."
+      }
+    ],
+    "map": {
+      "iframeTitle": "Map showing Brent House Restaurant",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.846640587476!2d-2.951559484231292!3d51.27025177959638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871fe7f0dbb8f4b%3A0x4eb2d9a4ae36216b!2sBrent%20House%20Carvery!5e0!3m2!1sen!2suk!4v1700000000000"
+    }
+  },
+  "travelStay": {
+    "title": "Travel & Stay",
+    "intro": "Weston-super-Mare is the best base for the night with plenty of seaside hotels and B&Bs. A few favourites from the PDF are below.",
+    "travel": [
+      {
+        "mode": "Parking",
+        "detail": "Complimentary parking is available at Brent House for all guests."
+      },
+      {
+        "mode": "Taxi",
+        "detail": "Apple Taxis, Weston-super-Mare • +44 1934 666666 (example)",
+        "link": "tel:+441934666666"
+      },
+      {
+        "mode": "Train",
+        "detail": "Weston-super-Mare has frequent trains from Bristol and London; plan around a 13 minute taxi to the venue."
+      }
+    ],
+    "stay": [
+      {
+        "name": "Travelodge Weston-super-Mare",
+        "detail": "Budget-friendly stop close to the seafront."
+      },
+      {
+        "name": "Premier Inn Weston-super-Mare (Seafront)",
+        "detail": "Right on the beach – perfect for a morning stroll."
+      },
+      {
+        "name": "Premier Inn Weston-super-Mare (Hutton Moor)",
+        "detail": "Next to the leisure centre with easy parking."
+      },
+      {
+        "name": "Local B&Bs & seaside hotels",
+        "detail": "Plenty of independent spots – explore Sand Bay and Uphill for cosy stays."
+      },
+      {
+        "name": "The Grange Inn, Brent Knoll",
+        "detail": "Closest accommodation to the venue on the A38, around a 15-minute walk or a quick taxi."
+      },
+      {
+        "name": "The Fox & Goose, Brent Knoll",
+        "detail": "Country pub with rooms about a mile from Brent House – walkable if you fancy an adventure."
+      }
+    ]
+  },
+  "registry": {
+    "title": "Gifts",
+    "intro": "Your presence is genuinely the best gift. If you still wish to contribute, red envelopes will be available on the day in honour of Taiwanese tradition.",
+    "options": [
+      {
+        "label": "Red envelope",
+        "description": "Bring a card or red envelope for cash or cheques."
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What should we wear?",
+        "answer": "Dress smart summer wedding – think light fabrics and layers for the Somerset breeze."
+      },
+      {
+        "question": "Can we bring children?",
+        "answer": "Of course! Please include little ones in your RSVP so we can plan seats and snacks."
+      }
+    ]
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "intro": "Let us know you’re coming and share any dietary needs so Brent House can look after everyone.",
+    "buttonLabel": "Open RSVP Form",
+    "formUrl": "https://example.com/rsvp",
+    "deadline": "Please respond by 1 April 2026"
+  },
+  "gallery": {
+    "title": "Coastal Inspirations",
+    "intro": "A mood board of the seaside vibes we love while we count down to June.",
+    "images": []
+  },
+  "contact": {
+    "title": "Important People",
+    "note": "Reach out if you need anything for travel, timing, or local tips.",
+    "people": [
+      {
+        "name": "Rob",
+        "role": "Groom",
+        "email": "robnicolaides@gmail.com",
+        "phone": "+447896015498"
+      },
+      {
+        "name": "Fandy",
+        "role": "Bride",
+        "email": "fandy8311@gmail.com",
+        "phone": "+447460730883"
+      },
+      {
+        "name": "Max",
+        "role": "Rob’s brother & best man",
+        "phone": "+447800710214"
+      },
+      {
+        "name": "Alex",
+        "role": "Rob’s cousin & best man",
+        "phone": "+447858514613"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Sea breeze, sunshine, and celebration.",
+    "rights": "© 2026 Fandy & Rob"
+  },
+  "misc": {
+    "eventDate": "2026-06-12T14:00:00+01:00",
+    "ics": {
+      "start": "2026-06-12T14:00:00+01:00",
+      "end": "2026-06-12T22:30:00+01:00",
+      "title": "Fandy & Rob — Wedding Reception",
+      "description": "Reception at Brent House Restaurant with drinks, dinner, and dancing.",
+      "location": "Brent House Restaurant, Bristol Road, East Brent, Highbridge TA9 4HL, UK"
+    }
+  }
+}

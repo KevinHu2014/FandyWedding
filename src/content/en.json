@@ -1,0 +1,135 @@
+{
+  "site": {
+    "title": "Fandy & Rob — Somerset Seaside Wedding",
+    "description": "All the details for Fandy and Rob’s relaxed seaside reception at Brent House Restaurant with travel, stay, and local tips."
+  },
+  "hero": {
+    "overline": "Somerset Coast • Brent House Restaurant",
+    "description": "Join us for a sun-drenched summer afternoon with coastal breezes, hearty Somerset flavours, and the people we love most.",
+    "ctaSecondary": { "label": "Download calendar invite", "action": "ics" }
+  },
+  "ourStory": {
+    "intro": "From Brighton beach dates to Somerset escapes, our story has always been tied to the sea. We’re so excited to celebrate that with you.",
+    "timeline": [
+      {
+        "year": "2015",
+        "headline": "First seaside stroll",
+        "description": "Met through friends and spent a windswept evening wandering along Brighton Pier, chatting until the lights came on."
+      },
+      {
+        "year": "2018",
+        "headline": "A home near the coast",
+        "description": "Settled into our own place within walking distance of the water – weekend coffee runs quickly became a ritual."
+      },
+      {
+        "year": "2023",
+        "headline": "The question on Sand Bay",
+        "description": "Rob proposed during a golden-hour walk along Sand Bay in Somerset. Fandy said yes just as the tide rolled in."
+      }
+    ]
+  },
+  "schedule": {
+    "subtitle": "Times may flex slightly with the tides — we’ll keep this page updated.",
+    "items": [
+      {
+        "time": "14:00",
+        "title": "Arrivals & welcome drinks",
+        "description": "Grab a glass, enjoy the gardens, and settle in with acoustic tunes."
+      },
+      {
+        "time": "15:30",
+        "title": "Toasts & stories",
+        "description": "A few words from family before we sit for dinner."
+      },
+      {
+        "time": "17:30",
+        "title": "Somerset feast",
+        "description": "Brent House carvery classics, veggie plates, and seaside-inspired desserts."
+      },
+      {
+        "time": "20:00",
+        "title": "Dancing & photos",
+        "description": "Live DJ, twinkling bunting, and a sunset photo wander if the weather cooperates."
+      },
+      {
+        "time": "22:30",
+        "title": "Sparkler send-off",
+        "description": "Gather outside for one last glow before we call it a night."
+      }
+    ],
+    "note": "If you’re travelling from Weston, allow time for taxis — Apple Taxis know the route well."
+  },
+  "venue": {
+    "description": "Brent House is a beloved local carvery with whitewashed walls, driftwood accents, and a garden that catches the evening light."
+  },
+  "travelStay": {
+    "intro": "Most guests are staying in Weston-super-Mare for the weekend — it’s got classic arcades, sandy stretches, and plenty of brunch spots for the morning after.",
+    "travel": [
+      {
+        "mode": "Parking",
+        "detail": "Free on-site parking at Brent House. Pop ‘TA9 4HL’ in your sat-nav."
+      },
+      {
+        "mode": "Taxi",
+        "detail": "Apple Taxis Weston • +44 1934 666666 • book returns when you arrive.",
+        "link": "tel:+441934666666"
+      },
+      {
+        "mode": "Train",
+        "detail": "Weston-super-Mare connects easily to Bristol Temple Meads and London Paddington via GWR."
+      }
+    ]
+  },
+  "registry": {
+    "intro": "We’re lucky to have everything we need, but if you’d like to honour Taiwanese tradition we’ll have red envelopes ready for cards, cash, or cheques."
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Is there parking at the venue?",
+        "answer": "Yes! Brent House has a dedicated car park with step-free access to the reception space."
+      },
+      {
+        "question": "Will the celebration be indoors or outdoors?",
+        "answer": "Dinner and dancing are indoors with airy windows; drinks and sunset photos will be outside if the weather agrees."
+      },
+      {
+        "question": "What about dietary requirements?",
+        "answer": "Share notes in your RSVP — the kitchen team can cater for veggie, vegan, gluten-free, and halal guests with notice."
+      }
+    ]
+  },
+  "rsvp": {
+    "formUrl": "https://forms.gle/example",
+    "deadline": "Kindly reply by 1 April 2026 so we can confirm numbers."
+  },
+  "gallery": {
+    "intro": "A little inspiration for the pastel bunting, sea-sparkle palette, and coastal flowers we’re planning.",
+    "images": [
+      {
+        "src": "/images/gallery-dune.svg",
+        "alt": "Sunlit dunes leading down to a calm sea",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/gallery-pier.svg",
+        "alt": "Pastel bunting fluttering along a seaside promenade",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/gallery-bouquet.svg",
+        "alt": "Soft blue and shell-pink bridal bouquet",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
+  "contact": {
+    "note": "For travel questions, message Rob; for accommodation or translation support, reach out to Fandy."
+  },
+  "footer": {
+    "tagline": "With love from the coastline"
+  }
+}

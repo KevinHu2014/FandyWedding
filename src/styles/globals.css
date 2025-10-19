@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: var(--font-sans);
+  background: linear-gradient(180deg, var(--color-sky) 0%, var(--color-foam) 60%, var(--color-sand) 100%);
+  color: var(--color-ink);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus,
+button:focus,
+[tabindex]:focus {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.container {
+  width: min(1100px, calc(100vw - 2.5rem));
+  margin: 0 auto;
+  padding: var(--space-xl) 0;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  margin-bottom: var(--space-md);
+  color: var(--color-ink);
+}
+
+p {
+  line-height: 1.6;
+  margin: 0 0 var(--space-md);
+  color: var(--color-ink-subtle);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition), color var(--transition);
+}
+
+.btn-primary {
+  background: var(--color-cornwall-blue);
+  color: var(--color-foam);
+  box-shadow: 0 10px 30px rgba(127, 179, 213, 0.35);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(14, 43, 62, 0.25);
+}
+
+.btn-secondary {
+  background: var(--color-sand);
+  color: var(--color-ink);
+  border-color: rgba(14, 43, 62, 0.12);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  background: #f0e4c8;
+}
+
+.wave {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(205, 231, 226, 0.8) 50%, rgba(127, 179, 213, 0.4) 100%);
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+}
+
+.wave::after {
+  content: "";
+  position: absolute;
+  inset: -40% 0 0;
+  background: radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.8), transparent 40%),
+    radial-gradient(circle at 60% 40%, rgba(205, 231, 226, 0.7), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(127, 179, 213, 0.5), transparent 40%);
+  animation: drift 10s linear infinite;
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.postcard {
+  background: var(--color-foam);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: var(--space-xl);
+  border: 1px solid rgba(62, 90, 106, 0.08);
+}
+
+.bunting-divider {
+  width: 100%;
+  height: 40px;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-cornwall-blue) 0,
+    var(--color-cornwall-blue) 20px,
+    var(--color-shell) 20px,
+    var(--color-shell) 40px,
+    var(--color-seafoam) 40px,
+    var(--color-seafoam) 60px,
+    var(--color-sand) 60px,
+    var(--color-sand) 80px
+  );
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 80% 70%, 70% 100%, 60% 70%, 50% 100%, 40% 70%, 30% 100%, 20% 70%, 10% 100%, 0 70%);
+}
+
+.hidden-visually {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    display: block;
+    background-attachment: scroll;
+  }
+
+  .container {
+    width: min(100%, calc(100vw - 1.5rem));
+    padding: var(--space-lg) 0 var(--space-xl);
+  }
+
+  .postcard {
+    padding: var(--space-lg);
+  }
+
+  .section-heading {
+    font-size: clamp(1.75rem, 7vw, 2.25rem);
+  }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Pastel sand dunes at sunset</title>
+  <desc id="desc">Abstract illustration of rolling sand dunes beside the sea in soft peach and blue tones.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#E7F3FA" />
+      <stop offset="60%" stop-color="#F5EEDA" />
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#7FB3D5" />
+      <stop offset="100%" stop-color="#CDE7E2" />
+    </linearGradient>
+    <linearGradient id="dune" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#F7D6E0" />
+      <stop offset="100%" stop-color="#F0C7AF" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <path d="M0 520 C 200 480 400 500 600 460 C 820 420 1000 480 1200 430 L 1200 800 L 0 800 Z" fill="url(#sea)" opacity="0.8" />
+  <path d="M0 580 C 220 620 420 560 660 610 C 880 660 1080 620 1200 640 L 1200 800 L 0 800 Z" fill="url(#dune)" opacity="0.9" />
+  <path d="M0 660 C 200 700 460 680 700 720 C 900 750 1100 720 1200 740 L 1200 800 L 0 800 Z" fill="#F5EEDA" />
+</svg>
